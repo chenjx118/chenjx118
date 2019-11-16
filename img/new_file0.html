@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			.t01{position: relative;height: 90px;}
+			.box1{background-color:#EDEDED;
+			      width:1360px;
+				  height:90px;
+				  margin:0 auto;overflow: auto;position: fixed;top: 0;z-index: 2;}
+			.logo{float: left;}
+			.right{width:900px;
+			       height:80px;
+				   background-color: #EDEDED;
+				   float:left}
+		    .nav{float: left;list-style: none;padding-top:30px;padding-bottom: 20px ;}
+			.nav li{float: left;
+			        width: 64px;
+					height:32px;
+					margin-left:25px;padding-bottom: 1px;border-bottom:2px #605AB0 solid;
+					}
+			
+			.nav a{color: black;
+			       text-decoration: none;}
+			.nav a:active{color:  #605ab0;text-decoration: underline;}
+			.page1{padding-left: 150px;padding-top: 125px;font-style: normal;float: left;}
+			.one{font-family: "微软雅黑";font-size: 20px;margin-bottom: 3px;font-weight: 100;line-height:32px;}
+			.two{font-family: " 微软雅黑";font-size: 30px;margin-bottom: 97px;font-weight: 400;line-height: 48px;}
+			.btn{display:block;width:160px; height: 54px;
+			     text-decoration: none;text-align: center;line-height: 54px;font-size: 18px;border-width: 1px;
+				 border-radius:4px;background-color: rgba(0,0,0,0);color: #605ab0;border-color: #605ab0;
+				 cursor: pointer;}
+			.btn:hover{background-color: #605AB0;color: #FFFFFF;}
+		    .btn2{ display:inline-block;float: right;width: 79px;height: 30px;font-size: 14px;
+                  border-radius: 4px;margin-top: 25px;border-width:1px;background-color: #605ab0;
+                  color: #fff;border-color: #605ab0;margin-right: 35px;cursor: pointer;}
+			.backgroud{margin-top: 30px;margin-left: 20px;margin-bottom: 100px;}
+			.title{font-size: 30px;font-weight:700;text-align: center;padding-top:90px;padding-bottom:90px;
+			      font-family: "微软雅黑";line-height: 48px;}
+			.btn3{display:block;width:160px; height: 54px;margin-left: 600px;float: left;margin-top: 100px;
+			     text-decoration: none;text-align: center;line-height: 54px;font-size: 18px;border-width: 1px;
+				 border-radius:4px;background-color: rgba(0,0,0,0);color: #605ab0;border-color: #605ab0;
+				 margin-right:600px ;cursor: pointer;margin-bottom:100px;}
+			.btn3:hover{background-color: #605AB0;color: #FFFFFF;}
+		    .title2{font-size: 30px;font-weight:700;text-align: center;margin-top:100px;margin-bottom:90px;
+			      font-family: "微软雅黑";line-height: 48px;display: block;float: left;margin-left:600px;
+				  margin-right: 600px;}
+			.t1{padding-left:5px;border-left:4px #605AB0 solid ;margin-left: 10px;font-size:25px;font-weight:500;
+			   text-align: left;font-family: "微软雅黑";line-height: 32px;}
+			.t2{font-size: 14px;font-weight: 700;color: #000000;line-height: 22.4px}
+			.t3{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;display: block;}
+			.t4{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t5{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			.text1{margin-left: 50px;float: left;}
+			.t6{padding-left:5px;border-left:4px #605AB0 solid ;margin-left: 10px;font-size:25px;font-weight:500;
+			   text-align: left;font-family: "微软雅黑";line-height: 32px;}
+			.t7{font-size: 14px;font-weight: 700;color: #000000;line-height: 22.4px}
+			.t8{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;display: block;}
+			.t9{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t10{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			.text2{margin-left: 100px;float: left;}
+			.t11{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t12{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			.text3{margin-left: 100px;float:left;margin-top: 118px;margin-right:550px;margin-bottom: 50px;}
+			.btn4{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+                 text-align: center;line-height: 38px;font-size: 16px;margin-right: 50px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 30px;cursor: pointer;background-color:#EDEDED;}
+			.btn4:hover{background-color: #898989;}
+			.btn5{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+			     text-align: center;line-height: 38px;font-size: 16px;margin-right: 45px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 40px;cursor: pointer;background-color:#EDEDED;}
+			.btn5:hover{background-color: #898989;}
+			.btn6{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+			     text-align: center;line-height: 38px;font-size: 16px;margin-right: 45px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 40px;cursor: pointer;background-color:#EDEDED;}
+			.btn6:hover{background-color: #898989;}
+			.btn7{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+			     text-align: center;line-height: 38px;font-size: 16px;margin-right: 45px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 40px;cursor: pointer;background-color:#EDEDED;}
+			.btn7:hover{background-color: #898989;}
+			.btn8{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+			     text-align: center;line-height: 38px;font-size: 16px;margin-right: 45px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 40px;cursor: pointer;background-color:#EDEDED;}
+			.btn8:hover{background-color: #898989;}
+			.btn9{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+			     text-align: center;line-height: 38px;font-size: 16px;margin-right: 45px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 40px;cursor: pointer;background-color:#EDEDED;}
+			.btn9:hover{background-color: #898989;}
+			.btn10{display: inline-block;width: 106px;height: 40px;border: 1px solid #dfdfdf;border-radius: 4px;
+			     text-align: center;line-height: 38px;font-size: 16px;color: #272c36;
+				 margin-bottom: 100px;margin-left: 40px;margin-right: 33px;cursor: pointer;background-color:#EDEDED;}
+			.btn10:hover{background-color: #898989;}
+			.btnall{background-color:#EDEDED;float: left;}
+			.ewm{float: left;margin-top: 50px;margin-left: 20px;color: #FFFFFF;margin-right:5opx;}
+			.backgroud2{background-color: #000000;float: left;}
+			.text4{float: left;margin-left: 70px;}
+			.t13{color: #FFFFFF;margin-top: 50px;display:block;}
+			.t14{color: #898989;}
+			.text5{float: left;margin-left: 70px;margin-bottom: 250px;}
+			.t15{color: #FFFFFF;margin-top: 50px;display:block;}
+			.t16{color: #898989;}
+			.text6{float: left;margin-left: 70px;margin-right: 155px;margin-bottom: 250px;}
+			.t17{color: #FFFFFF;margin-top: 50px;display:block;}
+			.t18{color: #898989;}
+			.end{color: #FFFFFF;display: block;float: left;margin-left: 500px;margin-bottom: 30px;
+			    font-size: 12px;}
+		    .line1{border-bottom: #FFFFFF 3px solid;padding-bottom: 20px;}
+			.line2{border-bottom: #FFFFFF 3px solid;padding-bottom: 20px;}
+			.line3{border-bottom: #FFFFFF 3px solid;padding-bottom: 20px;}
+			.title3{font-size: 30px;font-weight:700;text-align: center;margin-top:90px;margin-bottom:90px;
+			      font-family: "微软雅黑";line-height: 48px;display: block;float: left;margin-left: 600px;
+				  margin-right:600px;}
+			.t19{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;float: left;}
+			.text7{float: left;margin-left: 70px;margin-right: 155px;}
+			.btn11{display:block;width:160px; height: 54px;margin-left: 590px;float: left;margin-top: 100px;
+			     text-decoration: none;text-align: center;line-height: 54px;font-size: 18px;border-width: 1px;
+				 border-radius:4px;background-color: rgba(0,0,0,0);color: #605ab0;border-color: #605ab0;
+				 margin-right:600px ;cursor: pointer;margin-bottom:100px;}
+			.btn11:hover{background-color: #605AB0;color: #FFFFFF;}
+			.title4{font-size: 30px;font-weight:700;text-align: center;margin-top:90px;margin-bottom:90px;
+			      font-family: "微软雅黑";line-height: 48px;display: block;float: left;margin-left: 600px;
+				  margin-right:600px;}
+			.t20{font-size: 14px;font-weight: 400;margin-left: 100px;cursor:pointer;
+	           display: block;color: #000000;line-height:22.4px;float: left;margin-bottom:70px;}
+			.t21{font-size: 14px;font-weight: 400;margin-left: 469px;cursor:pointer;
+	           display: block;color: #000000;line-height:22.4px;float: left;margin-bottom:50px;}
+			.btn12{display:block;width:160px; height: 54px;margin-left: 590px;float: left;margin-top: 100px;
+			     text-decoration: none;text-align: center;line-height: 54px;font-size: 18px;border-width: 1px;
+				 border-radius:4px;background-color: rgba(0,0,0,0);color: #605ab0;border-color: #605ab0;
+				 margin-right:600px ;cursor: pointer;margin-bottom:100px;}
+			.btn12:hover{background-color: #605AB0;color: #FFFFFF;}
+			.backgroud3{background-color: #f5f5f5;float: left;}
+			.t22{display:block;margin-right:100px;font-size: 14px;font-weight:700;
+			      font-family: "微软雅黑";line-height: 48px;float: left;}
+			.backgroud4{background-color: #f5f5f5;float: left;}
+			.title5{font-size: 30px;font-weight:700;text-align: center;margin-top:90px;margin-bottom:90px;
+			      font-family: "微软雅黑";line-height: 48px;display: block;float: left;margin-left: 600px;
+				  margin-right:600px;}
+			.btn13{display:block;width:160px; height: 54px;margin-left: 590px;float: left;margin-top: 100px;
+			     text-decoration: none;text-align: center;line-height: 54px;font-size: 18px;border-width: 1px;
+				 border-radius:4px;background-color: rgba(0,0,0,0);color: #605ab0;border-color: #605ab0;
+				 margin-right:600px ;cursor: pointer;margin-bottom:100px;}
+			.btn13:hover{background-color: #605AB0;color: #FFFFFF;}
+			.text8{margin-left: 50px;float: left;}
+			.t23{padding-left:5px;border-left:4px #605AB0 solid ;margin-left: 10px;font-size:25px;font-weight:500;
+			   text-align: left;font-family: "微软雅黑";line-height: 32px;}
+			.t24{font-size: 14px;font-weight: 700;color: #000000;line-height: 22.4px}
+			.t25{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;display: block;}
+			.t26{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t27{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			.text9{margin-left: 30px;float:left;margin-top: 20px;margin-bottom: 50px;}
+			.t28{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t29{font-size:14px;line-height: 22.4px;font-weight: 200;color: #272C36;}
+			.t30{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			.text10{margin-left: 120px;float:left;margin-top: 20px;margin-bottom: 50px;}
+			.t31{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t32{font-size:14px;line-height: 22.4px;font-weight: 200;color: #272C36;}
+			.t33{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			.text11{margin-left: 100px;float:left;margin-top: 20px;margin-bottom: 50px;}
+			.t34{font-size: 14px;margin-bottom: 5px;font-weight: 700;color: #000000;line-height: 22.4px;
+			   padding-top:30px;}
+			.t35{font-size:14px;line-height: 22.4px;font-weight: 200;color: #272C36;}
+			.t36{color: #898989;font-size:14px;line-height: 22.4px;font-weight: 400;}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			</style>
+	</head> 
+	 <div class="t01"></div>
+	<div class="box1">
+		   <div class="logo">
+		    <a href="#">
+			<img src="logo1.png" alt="logo">
+			</a>
+		  </div>
+		  <div class="right">
+		    <ul class="nav" >
+			<li><a href="#">大赛首页</a></li>
+		  
+			<li><a href="#">大赛介绍</a></li>
+		 
+			<li><a href="#">大赛动态</a></li>
+		  
+			<li><a href="#">大赛资源</a></li>
+		 
+			<li><a href="#">往期回顾</a></li>
+		 
+			<li><a href="#">组织架构</a></li>
+		  
+			<li><a href="#">常见问题</a></li>
+		 
+			<li><a href="#">进入社区</a></li>
+		    </ul>
+			 <button class="btn2" href="#">登录</button>
+		  </div>
+		  
+		</div>
+		<div class="page1">
+		    
+			   <h1 class="one" >2019--中国高校计算机大赛</h1>
+	           <h2 class="two" >微信小程序应用开发赛</h2>
+	           <button class="btn" href="#">报名登录</button>
+		</div>
+		<div class="page2">
+			
+			<div class="backgroud">
+		    <a href="#">
+			<img src="backgroud.png" alt="背景">
+			</a>
+		</div><!--backgroud-->
+		<hr style="width:100%;border:none;border-top:1px solid #000000" />
+		<div>
+		<h1 class="title3">大赛介绍</h1>
+		<div style="background-image:url(奖杯.png);width: 100px;height: 100px;float: left;margin-left: 300px;
+		           margin-right:30px;margin-bottom: 70px;"></div>
+		<div class="text7">
+			<div class="t22">大赛总奖励：¥900000</div></br><!--t22-->
+			<div class="t19">微信小程序应用开发赛是基于腾讯微信小程序平台的创新应用开发设计竞赛，
+			                 大赛面向<br>全球高校在校生开放。</div>
+		</div><!--text7-->
+		</div>
+		<div style="background-image:url(截图.jpg);float:left;margin-left:200px;width: 1000px;height: 200px;"></div>
+		<button class="btn11" href="#">详细介绍 </button>
+		
+		<div class="backgroud3">
+		<h1 class="title4">大赛动态</h1>
+		<div style="background-image:url(总决赛1.png);float: left;margin-left:100px;width:500px;height: 300px;margin-bottom: 20px;cursor: pointer;"></div>
+		<div style="background-image:url(总决赛2.png);float: left;margin-left:100px;width:450px;height: 300px;margin-bottom: 20px;cursor: pointer;"></div>
+		<div class="t20">全国总决赛获奖名单</div>
+		<div class="t21">全国总决赛晋级队伍名单</div>
+		<button class="btn12" href="#">更多动态</button>
+		</div><!--backgroud3-->
+		</div><!--page2-->
+		
+		<div style="float:left">
+			<h1 class="title">大赛资源</h1>
+		
+		<div style="background-image:url(1.1.png);width: 300px;height: 300px;margin-left:150px;float:left;
+		cursor: pointer;">
+			<span style="display: block;text-align: center;font-size: 20px;
+			color: #FFFFFF;cursor: pointer;margin-top: 120px;">小程序<span class="line1">开发</span>指南</span>
+		    </div>
+		<div style="background-image:url(2.2.png);width: 300px;height: 300px;margin-left:40px;float: left;
+		cursor: pointer;">
+			<span style="display: block;text-align: center;font-size: 20px;
+			color: #FFFFFF;cursor: pointer;margin-top: 120px;">《学做小<span class="line2">程序</span>在线课程》</span>
+		    </div>
+		<div style="background-image:url(3.3.png);width: 300px;height: 300px;margin-left: 40px;float: left;
+		margin-right: 200px;cursor: pointer;">
+			<span style="display: block;text-align: center;font-size: 20px;
+			color: #FFFFFF;cursor: pointer;margin-top: 120px;">微信小游<span class="line3">戏入</span>门与实践</span>
+		    </div>
+		</div>
+		
+		
+		
+			<button class="btn3" href="#">更多资源 </button>
+		
+		<div class="backgroud4">
+		<h1 class="title5">往期回顾</h1>
+		<div style="background-image:url(截图1.png);float: left;margin-left:200px;width:1000px;height: 600px;margin-bottom: 20px;"></div>
+		<button class="btn13" href="#">2018大赛作品回顾</button>
+		</div><!--backgroud4-->	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div float:left>
+				<h1 class="title2">组织机构</h1>
+
+	<div class="text1">
+		<div class="t1">大赛指导委员会</div><br>
+		<div class="t2">主任</div><br>
+		<p class="t3">孙家广（北京大学）</p>
+		<div class="t4">副主任</div><br>
+		<div class="t5">
+			<p>蒋宗礼（北京工业大学)</p>
+            <p>廖湘科（国防科技大学)</p>
+            <p>张尧学（中南大学）</p>
+            <p>曾 鸣（腾讯微信)</p>
+            <p>孙春光（腾讯微信）</p>
+		</div><!--t5-->
+	</div><!--text1-->
+	<div class="text2">
+		<div class="t6">大赛组织委员会</div><br>
+		<div class="t7">主任</div><br>
+		<p class="t8">刘强（清华大学）</p>
+		<div class="t9">副主任</div><br>
+		<div class="t10">
+			<p>黄心渊（中国传媒大学）
+            <p>卢 苇（北京交通大学)</p>
+            <p>武永卫（清华大学）</p>
+            <p>吴 狄（腾讯微信）</p>
+		</div><!--t10-->
+	</div><!--text2-->
+	<div class="text3">
+		<div class="t11">委员</div><br>
+		<div class="t12">
+			<p>洪 玫（四川大学）</p>
+            <p>黄虎杰（哈尔滨工业大学)</p>
+            <p>姜学锋（西北工业大学）</p>
+            <p>蒋建伟（上海交通大学）</p>
+            <p>吕 欣（中国传媒大学）</p>
+            <p>师雷宏（中南大学）</p>
+            <p>许端清（浙江大学）</p>
+            <p>张齐勋（北京大学）</p>
+            <p>左保河（华南理工大学）</p>
+            <p>宁 纯（腾讯微信）</p>
+            <p>王云海（腾讯微信）</p>
+            <p>张 维（腾讯微信）</p>
+            <p>朱世威（腾讯微信）</p>
+		</div><!--t12-->
+	</div><!--text3-->
+	<div class="text8">
+		<div class="t23">大赛专家委员会</div><br>
+		<div class="t24">主任</div><br>
+		<p class="t25">王建民（清华大学）</p>
+		<div class="t26">副主任</div><br>
+		<div class="t27">
+			<p>吴中海（北京大学，技术专家组负责人）</p>
+            <p>冼 枫（清华大学，设计专家组负责人）</p>
+            <p>杨 红（中国传媒大学，内容专家组负责人）</p>
+            <p>陈子舜（腾讯微信）</p>
+            <p>郭志伟（腾讯微信）</p>
+		</div><!--t27-->
+	</div><!--text8-->
+	<div class="text9">
+		<div class="t28">委员</div><br>
+		<div class="t29">技术专家组</div>
+		<div class="t30">
+			<p>陈志刚（中南大学）</p>
+            <p>何钦铭（浙江大学）</p>
+            <p>骆斌（南京大学）</p>
+            <p>孙国玉（中国传媒大学）</p>
+            <p>王泉（西安电子科技大学）</p>
+            <p>王备战（厦门大学）</p>
+            <p>王忠杰（哈尔滨工业大学）</p>
+            <p>吴卿（杭州电子科技大学）</p>
+            <p>臧斌宇（上海交通大学）</p>
+            <p>张盛兵（西北工业大学）</p>
+            <p>朱国斌（电子科技大学）</p>
+            <p>陈冰如（腾讯微信）</p>
+            <p>林超（腾讯微信）</p>
+            <p>郑文晓（腾讯微信）</p>
+		</div><!--t30-->
+	</div><!--text9-->
+	
+	<div class="text10">
+		<div class="t31">委员</div><br>
+		<div class="t32">设计专家组</div>
+		<div class="t33">
+			<p>陈京炜（中国传媒大学）</p>
+            <p>程明智（北京印刷学院）</p>
+            <p>李恒杰（兰州理工学院）</p>
+            <p>刘 伟（北京师范大学）</p>
+            <p>刘开南（海南三亚学院）</p>
+            <p>刘清堂（华中师范大学）</p>
+            <p>罗江林（吉林动画学院）</p>
+            <p>师丹青（清华大学)</p>
+            <p>谭亮（广州美术学院)</p>
+            <p>田野（四川音乐学院）</p>
+            <p>张啸（腾讯微信）</p>
+            <p>杨静怡（腾讯微信)</p>
+            <p>崔文龙（腾讯微信）</p>
+		</div><!--t33-->
+		</div><!--text10-->
+		
+		<div class="text11">
+			<div class="t34">委员</div><br>
+			<div class="t35">内容专家组</div>
+			<div class="t36">
+				<p>巴莫曲布嫫（中国社会科学院）</p>
+                <p>邓雪晨（中国非物质文化遗产保护中心）</p>
+                <p>高丙中（北京大学）</p>
+                <p>宋俊华（中山大学）</p> 
+                <p>孙冬宁（恭王府博物馆）</p>
+                <p>田 苗（国家图书馆）</p>
+                <p>萧 放（北京师范大学）</p>
+                <p>张 烈（清华大学）</p>
+                <p>张玉玲（光明日报）</p>
+			</div><!--t36-->
+			</div><!--text11-->
+			</div><!--组织机构-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btnall">
+		<button class="btn4" href="#">东北地区 </button>
+		<button class="btn5" href="#">华北地区 </button>
+		<button class="btn6" href="#">华东地区 </button>
+		<button class="btn7" href="#">华中地区 </button>
+		<button class="btn8" href="#">西北地区 </button>
+		<button class="btn9" href="#">西南地区 </button>
+		<button class="btn10" href="#">华南地区 </button>
+</div>
+	<div class="backgroud2">
+	<div class="ewm">
+		<p>最新动态请关注公众号</p><br>
+		<a href="#">
+		<img src="二维码.jpg" alt="二维码">
+		</a>
+		
+	</div><!--ewm-->
+	<div class="text4">
+		<p class="t13">主办方:</p><br><br>
+		<div class="t14">
+			<p>教育部高等学校计算机类专业教学指导委员会</p><br>
+            <p>教育部高等学校软件工程专业教学指导委员会</p><br>
+            <p>教育部高等学校大学计算机课程教学指导委员会</p><br>
+            <p>全国高等学校计算机教育研究会</p><br>
+            <p>清华大学</p><br>
+            <p>中国传媒大学</p><br>
+		</div><!--t14-->
+		
+		</div><!--text4-->
+	<div class="text5">
+		<p class="t15">赛事问答:</p><br><br>
+		<div class="t16">
+		    <p>小程序：587809729 / 623937261</p><br>
+            <p>小游戏：345840901</p>
+		</div><!--t16-->
+	</div><!--text5-->
+	<div class="text6">
+		<p class="t17">邮箱:</p>
+		<div class="t18">
+			<p>wechatcontest@qq.com</p><br>
+            <p>技术支持：</p><br>
+            <p>腾讯云计算机服务</p>
+		</div><!--t18-->
+	</div><!--text6-->
+	<p class="end">Copyright © 2012-2019 Tencent. All Rights Reserved. </p>
+	</div><!--backgroud2-->
+    
+	
+	
+	
+	
+	</div><!--最后一个结束-->
+	 
+	</body>
+</html>

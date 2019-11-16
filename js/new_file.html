@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		*{margin: 0;padding: 0;}
+	.t01	{position: relative;
+		     height: 80px;
+			 width:1349px;
+			}
+	.box1	{background-color: #FFFFFF;
+		     width:100%;
+			 height:80px;
+			 margin:0 auto;
+			 overflow:auto;
+			 position: fixed;
+			 top: 0;
+			 z-index:2;
+			}
+	.logo	{float:left;
+		     margin-left:30px;
+			 height:80px;
+			}
+	.right	{width:1120px;
+		     height:80px;
+			 background-color: #FFFFFF;
+			 float:left
+			}
+	.nav	{float: left;
+		     list-style: none;
+			 padding-top:20px;
+			}
+	.n1	    {float:left;                            
+             width:60px;
+			 height:58px;
+			 margin-left:50px;
+			 }
+	.n3	    {float: left;
+	         width: 50px;
+			 height:58px;
+			 margin-left:15px;
+			 }
+	.n2	    {float:left;
+	         width:130px;
+			 height:58px;
+			 margin-left:15px;
+			 }
+.nav a:hover{color: #000000;
+            }
+	.nav a  {color:#808a8e;
+	         text-decoration: none;
+			 font-size:18px;
+			 }
+	.n4	   {float:left;
+	         width: 80px;
+			 height:58px;
+			 margin-left:300px;
+			 }
+	.text1  {display: block;
+	         text-align: center;
+			 margin-top: 300px;
+			 color: #000000;
+			 font-size:36px;
+			 }
+	.title1	{display:block;
+	        float:left;
+			margin-top:200px;
+			margin-bottom:20px;
+			margin-left:330px;
+		    font-size: 60px;
+			text-align:center;
+			}
+	.btn    {display:block;
+	         width:160px; 
+			 height: 54px;
+			 text-decoration: none;
+			 text-align: center;
+			 line-height: 54px;
+			 font-size: 18px;
+			 border-width: 1px;
+			 border-radius:5px;
+			 background-color:#2c97e8;
+			 color: #FFFFFF;
+			 cursor: pointer;
+			 float:left;
+			 margin-left:590px;
+			 margin-top:70px;
+			 padding-bottom:20px;
+			 box-shadow: 0 5px 30px rgba(44,151,234,.32)
+			 }
+.btn:hover  {background-color:rgba(44,151,234,.32)
+            }
+.backgroudright
+            {background-image:url(背景2.png);
+			float:right;
+			width:436px;
+			height:250px;
+			margin-right:100px;
+		    margin-top:100px;
+			}
+	.left   {float:left;
+	        }
+	.title2 {display:block;
+	         float:left;
+			 font-size:36px;
+			 font-weight:400;
+			 margin-top:120px;
+			 color:#455d82;
+			 margin-left:100px;
+			 }
+	.text2  {display:block;
+	         float:left;
+			 font-size:18px;
+			 color:#373d41;
+			 margin-top:10px;
+			 line-height:35px;
+			 margin-left:100px;
+			 }
+	.title3 {color:#455d82;
+	         font-size:36px;
+			 font-weight:400;
+			 margin-top:150px;
+			 display:block;
+			 float:left;
+		     line-height:1.5;
+			 margin-left:550px;
+			 margin-right:540px;
+			 }
+	.title4	{font-size:24px;
+	         font-weight:400;
+			 color:#455d82;
+			 display:block;
+			 float:left;
+			 margin-left:30px;
+			 margin-top:5px;
+		     margin-right:350px;
+			 }
+	.text3  {display:block;
+	         float:left;
+			 color:#373d41;
+			 margin-top:10px;
+			 font-size:16px;
+			 margin-left:30px;
+			 line-height:32px;}
+	.box3   {border: 1px solid rgba(186,172,172,.2);
+	         border-radius:7px;
+			 margin-left:100px;
+			 margin-bottom:50px;
+		     float:left;
+			 width:550px;
+			 height:280px;
+			 margin-top:100px;
+			 cursor:pointer;
+			 }
+	.t1     {width:100px;
+	         height:60px;
+			 float:left;
+			 margin-left:30px;
+			 margin-top:35px;
+			 margin-right:50px;
+			 }
+.box3:hover {border-color: #2C97E8;
+			 box-shadow:#DFDFDF 3px 3px 3px 3px;
+			 }
+		
+	.title5 {font-size:24px;
+	         font-weight:400;
+			 color:#455d82;
+			 display:block;
+			 float:left;
+			 margin-left:50px;
+			 margin-top:5px;
+		     margin-right:350px;
+			 }
+	.text4  {display:block;
+	         float:left;
+			 color:#373d41;
+			 margin-top:10px;
+			 font-size:16px;
+			 margin-left:50px;
+			 line-height:32px;
+			 }
+	.box4   {border: 1px solid rgba(186,172,172,.2);
+	         border-radius:7px;
+			 margin-left:10px;
+			 margin-bottom:50px;
+		     float:right;
+			 width:550px;
+			 height:280px;
+			 margin-top:100px;
+			 margin-right:100px;
+			 cursor:pointer;
+			 }
+		.t2 {width:100px;
+		     height:60px;
+			 float:left;
+			 margin-left:50px;
+			 margin-top:35px;
+			 margin-right:100px;
+			 }
+.box4:hover {border-color: #2C97E8;
+			 box-shadow:#DFDFDF 3px 3px 3px 3px;
+			}
+	.title6 {font-size:24px;
+	         font-weight:400;
+			 color:#455d82;
+			 display:block;
+			 float:left;
+			 margin-left:50px;
+			 margin-top:5px;
+		     margin-right:350px;
+			 }
+	.text5  {display:block;
+	         float:left;
+			 color:#373d41;
+			 margin-top:10px;
+			 font-size:16px;
+			 margin-left:50px;
+			 line-height:32px;
+			 }
+	.box5   {border: 1px solid rgba(186,172,172,.2);
+	         border-radius:7px;
+			 margin-left:100px;
+			 margin-bottom:50px;
+		     float:left;
+			 width:550px;
+			 height:280px;
+			 cursor:pointer;
+			 }
+	.t3     {width:100px;
+	         height:60px;
+			 float:left;
+			 margin-left:50px;
+			 margin-top:35px;
+			 margin-right:100px;
+			 }
+.box5:hover {border-color: #2C97E8;
+			 box-shadow:#DFDFDF 3px 3px 3px 3px;
+			}
+	.title7 {font-size:24px;
+	         font-weight:400;
+			 color:#455d82;
+			 display:block;
+			 float:left;
+			 margin-left:50px;
+			 margin-top:5px;
+		     margin-right:350px;
+			 }
+	.text6  {display:block;
+	         float:left;
+			 color:#373d41;
+			 margin-top:10px;
+			 font-size:16px;
+			 margin-left:50px;
+			 line-height:32px;
+			 }
+	.box6   {border: 1px solid rgba(186,172,172,.2);
+	         border-radius:7px;
+			 margin-left:10px;
+			 margin-bottom:50px;
+		     float:right;
+			 width:550px;
+			 height:280px;
+			 margin-right:100px;
+			 cursor:pointer;
+			 }
+	.t4     {width:100px;
+	         height:60px;
+			 float:left;
+			 margin-left:50px;
+			 margin-top:35px;
+			 margin-right:100px;
+			 }
+.box6:hover {border-color: #2C97E8;
+			 box-shadow:#DFDFDF 3px 3px 3px 3px;
+			 }
+	.title8 {float:right;
+	         margin-right:347px;
+			 color:#455d82;
+			 font-size:36px;
+			 font-weight:400;
+			 line-height:1.5;
+			 margin-top:150px;
+			 }
+	.text7  {float:right;
+	         margin-right:130px;
+			 margin-top:10px;
+			 color:#373d41;
+			 font-size:18px;
+			 line-height:2;
+			 }
+	.title9 {margin-left:100px;
+	         width:780px;
+			 height:50px;
+			 background: #def1ff;
+			 float:left;
+			 }
+	.num1   {font-weight: 400;
+	         color:#fff;
+			 border: 1px solid transparent;
+			 border-radius: 14px;
+			 background-color:#2c97e8;
+		     float:left;
+			 font-size:14px;
+			 margin-left:50px;
+			 padding:3px 10px;
+			 text-align:center;
+			 display:block;
+			 margin-top:20px;
+			 }
+	.num2   {float:left;
+	         font-size:14px;
+			 font-weight:400;
+			 margin-left:20px;
+			 text-align:center;
+			 height:28px;
+		     width:60px;
+			 display:block;
+			 margin-top:20px;
+			 }
+	.line   {display:block;
+	         float:right;
+			 margin-right:100px;
+			 list-style: none;
+			 cursor: pointer;
+			}
+	.line1  {height:35px;
+	         width:280px;
+			 border: 1px solid #2c97e8;
+			 color: #2c97e8;
+			 border-bottom-width:2px;
+		     z-index: 1;
+			 padding-left:20px;
+			 padding-top:15px;
+			 z-index:1;
+			 transform: scale(1.02);
+			 }
+	.line2  {height:35px;
+	         width:280px;
+			 border: 1px solid #def1ff;
+			 color: #000000;
+			 padding-left:20px;
+			 padding-top:15px;
+			 }
+	.line3  {height:35px;
+	         width:280px;
+			 border: 1px solid #def1ff;
+			 color: #2c97e8;
+			 padding-left:20px;
+			 padding-top:15px;
+			 }
+	.title9d{float:left;
+	         width:40px;
+			 height:265px;
+			 font-size:14px;
+			 cursor: default;
+			 font-weight:100;
+			 margin-left:100px;
+		     border-left: 1px solid #def1ff;
+			 border-bottom: 1px solid #def1ff;
+			 }
+	.title9d2{margin-left:0;
+	         float:left;
+			 width:740px;
+			 height:265px;
+			 border-bottom: 1px solid #def1ff;
+			 border-right: 1px solid #def1ff;
+			 }
+.backgronud {width:420px;
+             height:420px;
+			 margin-left:100px;
+			 margin-top:100px;
+			 float:left;
+			 margin-bottom:100px;
+			 }
+		.h1 {color:#455d82;
+		     font-size:36px;
+			 font-weight:400;
+			 line-height:1.5;
+			 display:block;
+			 float:left;
+			 }
+		.h2 {display:block;
+		     float:left;
+			 margin-top:10px;
+			 color:#373d41;
+			 font-size:18px;
+			 }
+		.h3 {display:block;
+		     float:left;
+			 font-size:16px;
+			 margin-top:10px;
+			 }
+		.h4 {display:block;
+		     float:left;
+			 font-size:16px;
+			 margin-top:10px;
+			 }
+	.box17  {float:left;
+	         color:rgba(82,93,125,.8);
+			 border: 1px solid rgba(82,93,125,.5);
+			 background-color: #FFFFFF;
+		     cursor: pointer;
+			 margin-left:30px;
+			 text-align: center;
+			 font-size: 18px;
+			 border-radius:5px;
+		     line-height:54px;
+			 width:160px;
+			 height:50px;
+			 padding-bottom:10px;
+			 }	
+.box17:hover{color: #2c97e8;
+             border-color: #2c97e8;
+			 }
+	.box18	{float:left;
+	         color:rgba(82,93,125,.8);
+			 border: 1px solid rgba(82,93,125,.5);
+			 background-color: #FFFFFF;
+			 cursor: pointer;
+			 margin-left:580px;
+			 text-align: center;
+			 font-size: 18px;
+			 border-radius:5px;
+			 line-height:54px;
+		     width:160px;
+			 height:50px;
+			 padding-bottom:10px;
+			 margin-top:50px;
+			 cursor:pointer;
+			 }
+.box18:hover{color: #2c97e8;
+	         border-color: #2c97e8;
+			}
+	.box20  {display:inline-block;
+	         color:#FFFFFF;
+			 background-color:#63b2ee;
+			 border-color:#2c97e8;
+			 margin-left:50px;
+			 padding:10px 20px 10px 20px;
+			 margin-top:50px;
+			 margin-bottom:50px;
+			 border: 1px solid #2c97e8;
+			 border-radius:5px;
+			 cursor:pointer;
+			 }			 
+.box20:hover{color: #2c97e8;
+             border-color: #2c97e8;
+			 }	
+	.box21  {color:rgba(255,255,255,.8);
+	         display:block;
+			 float:left;
+			 margin-left:50px;
+			 width:350px;
+			 height:40px;
+			 padding-top:20px;
+			 padding-bottom:10px;
+			 }
+        .s1 {display:block;
+		     float:left;
+			 width:200px;
+			 height:36px;
+			 font-size:18px;
+			 color:#fff;
+			 margin-top:50px;
+			 margin-bottom:20px;
+			 margin-right:100px;
+			 }
+		.s2 {display:block;
+		     float:left;
+			 color:rgba(255,255,255,.8);
+			 font-size:16px;
+			 font-weight:300;
+			 margin-bottom:20px;
+			 margin-right:100px;
+			 }
+		.s3 {display:block;
+		     float:left;
+			 color:rgba(255,255,255,.8);
+			 font-size:16px;
+			 font-weight:300;
+			 margin-bottom:20px;
+			 margin-right:50px;
+			 }		 
+		.s4 {display:block;
+			 float:left;
+			 width:200px;
+			 height:36px;
+			 font-size:18px;
+			 color:#fff;
+			 margin-top:50px;
+			 margin-bottom:20px;
+			 margin-right:100px;
+			 }
+		.s5 {display:block;
+			 float:left;
+			 color:rgba(255,255,255,.8);
+			 font-size:16px;
+			 font-weight:300;
+			 margin-bottom:20px;
+			 margin-right:80px;
+			 }	
+		.s6 {display:block;
+		     float:left;
+			 width:200px;
+			 height:36px;
+			 font-size:18px;
+			 color:#fff;
+			 margin-top:50px;
+			 margin-bottom:20px;
+			 margin-right:100px;
+			 }
+		.s7 {display:block;
+		     float:left;
+			 color:rgba(255,255,255,.8);
+			 font-size:16px;
+			 font-weight:300;
+			 margin-bottom:20px;
+			 margin-right:80px;
+			 }
+		.s8 {display:block;
+		     float:left;
+			 color:rgba(255,255,255,.8);
+			 font-size:16px;
+			 font-weight:300;
+			 margin-bottom:20px;
+			 margin-right:100px;
+			 }
+		.s9 {display:block;
+		     float:left;
+			 width:200px;
+			 height:36px;
+			 font-size:18px;
+			 color:#fff;
+			 margin-top:50px;
+			 margin-bottom:20px;
+			 margin-right:100px;
+			 }
+		.s10{display:block;
+		     float:left;
+			 color:rgba(255,255,255,.8);
+			 font-size:16px;
+			 font-weight:300;
+			 margin-bottom:20px;
+			 margin-right:80px;
+			 }
+	.box23	{display:block;
+	         float:left;
+			 padding-left:10px;
+			 padding-top:15px;
+			 padding-bottom:15px;
+			 width:300px;
+			 background:rgba(255,255,255,.08);
+			 color:#777885;
+			 margin-left:50px;
+			 }
+	.box24  {display:block;
+	         float:left;
+			 margin-left:550px;
+			 margin-top:30px;
+			 color:rgba(255,255,255,.6);
+			 font-size:12px;
+			 }
+	.next2  {font-weight: 400;
+             color:#373d41;
+			 padding-bottom:20px;
+             border-bottom: 1px solid #f0eff3;
+			 font-size:16px;
+			 margin-top:20px;
+			 margin-left:10px;
+			 }
+	.next1  {}
+		
+		
+	</style>
+	</head>
+	<body>
+		<div class="t01"></div>
+		<div class="box1">
+			<div class="logo">
+			  <a href="#">
+			  <img src="logo.jpg" alt="logo"></a>
+		    </div><!--logo-->
+		    <div class="right">
+			   <ul class="nav" >
+				<li class="n1"><a href="#">产品</a></li>
+			    <li class="n3"><a href="#">价格</a></li>
+			    <li class="n3"><a href="#">用户</a></li>
+			    <li class="n3"><a href="#">文档</a></li>
+			    <li class="n3"><a href="#">学习</a></li>
+			    <li class="n3"><a href="#">帮助</a></li>
+			    <li class="n2"><a href="#">国际版（lntl)</a></li>
+			    <li class="n4"><a href="#">控制台&nbsp;></a></li>
+			   </ul>
+			</div><!--right-->
+		</div><!--box1-->
+		
+		<div style="background-image:url(背景1.png);width: 100%	;height:650px;float:left;">
+			<h1 class="title1">通用游戏解决方案（Beta)</h1>
+			<span class="text1">实时对战，智能组队，玩家排行榜<br>
+			轻松开发大型多人游戏</span>
+			<button class="btn" href="#">了解更多&nbsp;> </button>
+		</div><!--backgroud1-->
+		
+			<div class="left">
+			  <h1 class="title2">只差程序员，如何把想法实现？</h1><br>
+			  <p class="text2">后端系统的开发和维护不是一件简单的事。搭建团队、开发联调、迭代升级以及<br>线上运维等工作，都需要长期投入。
+                 <br>让专业的团队来处理这些棘手的问题，用成熟的云服务来加速产品迭代过程，省<br>时、省钱、省力。</p>
+			</div><!--left-->
+		<div class="box2">
+			<div class="backgroudright"></div><!--backgroudright-->
+		</div><!--box2-->
+		
+		
+			 <h2 class="title3">一站式后端服务</h1>
+		<div class="box3">
+			<section class="box3.1">
+				<div class="t1">
+				<a href="#">
+				<img src="图片1.jpg" alt="背景1">
+				</a></div><!--t1--><br>
+				<h2 class="title4">数据存储</h2><br>
+				<p class="text3">将业务数据直接存储到云端，真正按需使用。基础架构的运维与自动<br>的弹性缩放，完全由服务提供者管理
+				                 。让开发者专注产品体验，支撑<br>业务快速启动和成长。</p>
+			</section><!--box3.1-->
+		</div><!--box3-->
+		
+		<div class="box4">
+			<section class="box4.1">
+				<div class="t2">
+				<a href="#">
+				<img src="图片2.jpg" alt="背景2">
+				</a></div><!--t2--><br>
+				<h2 class="title5">云引擎</h2><br>
+				<p class="text4">基于Docker的容器云计算平台，在leancloud基础架构上以任意编<br>程语言开发业务逻辑，满足定制化需求。
+				用最少代码，提供最大价<br>值。</p>
+			</section><!--box4.1-->
+		</div><!--box4-->
+		
+		<div class="box5">
+			<section class="box5.1">
+				<div class="t3">
+				<a href="#">
+				<img src="图片3.jpg" alt="背景3">
+				</a></div><!--t3--><br>
+				<h2 class="title6">即时通讯</h2><br>
+				<p class="text5">给产品嵌入QQ的功能，让用户沟通更便捷和高效，体验更好。<br>支持文字、图片、音视频聊天、支持黑名单、
+				                 公众号等高级功能。</p>
+			</section><!--box5.1-->
+		</div><!--box5-->
+	
+	    <div class="box6">
+	    	<section class="box6.1">
+	    		<div class="t4">
+	    		<a href="#">
+	    		<img src="图片4.jpg" alt="图片4">
+	    		</a></div><!--t4--><br>
+	    		<h2 class="title7">游戏解决方案</h2><br>
+	    		<p class="text6">针对手游行业的完整解决方案，支持多人在线对战、排行榜等核心需<br>求，并提供专业的运营数据统计分析平台。</p>
+	    	</section><!--box6.1-->
+	    </div><!--box6-->
+		
+		<div class="box7">
+			<div style="margin-left:100px;float:left;margin-top:100px;margin-bottom:100px;">
+			<a href="#">
+			<img src="图片5.jpg" alt="图片5">
+			</a></div><!--t5-->
+			<h2 class="title8">全平台支持，上手简单</h2><br>
+			<p class="text7">全平台SDK支持，帮助各平台者快速集成，研发与业务高效联动，让产品<br>迅速到达市场</p>
+			<div style="float:right;margin-right:75px;margin-top:10px;margin-bottom:110px;">
+			<a href="#">
+			<img src="图片6.jpg" alt="图片6">
+			</a></div>
+		</div><!--box7-->
+	    
+	<div class="box8" >	
+	    <div class="title9" style="border-top: 1px solid #def1ff;border-left: 1px solid #def1ff;border-right: 1px solid #def1ff;cursor: pointer;">
+	     
+	    			<span class="num1">Curl</span>
+	                <span class="num2">Java</span>
+	    		    <span class="num2">JS</span>
+	                <span class="num2">Obj-C</span>
+	    		    <span class="num2">Swift</span>
+	    		    <span class="num2">C##</span>
+	                <span class="num2">Python</span>
+	    		    <span class="num2">PHP</span>
+	    </div><!--title9-->
+		
+		<div class="title9r" style="margin-bottom:100px;">
+		<ul class="line">
+			<li class="line1">数据模型与储存</li>
+			<li class="line2">查询云引擎（Hook)</li>
+			<li class="line2">云引擎（Hook)</li>
+			<li class="line2">即时通讯</li>
+			<li class="line2">游戏对战</li>
+			<li class="line3">查看更多开发文档</li>
+		</ul>
+		</div><!--title9r-->
+		
+		<div class="title9d" style="margin-bottom:100px;">
+		  <div style="float:left;background-color: #898989;width:40px;height:17px;text-align: center;">1</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;">2</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;">3</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;">4</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;">5</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;">6</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;"></div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:17px;text-align: center;">7</div>
+		  <div style="float:left;background-color: #DFDFDF;width:40px;height:129px;"></div>
+		</div><!--title9d-->  
+		<div class="title9d2" style="margin-bottom:100px;">  
+		    <div style="float:left;background-color: #DFDFDF;width:740px;height:17px;">
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">//&nbsp how &nbsp to&nbsp save&nbsp a&nbsp new&nbsp object.</span></div>
+		    <div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">
+			   <span style="font-weight:100;font-size:14px;font-family: 'microsoft sans serif';color: #000000;
+			   height:17px;top:0px;display:block;float:left;">curl&nbsp -X&nbsp POST</span></div>
+		    <div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">
+			   <span style="font-weight:100;font-size:14px;font-family: 'microsoft sans serif';color: #000000;height:17px;top:0px;
+			   display:block;float:left;">&nbsp -H</span>
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">&nbsp "X-LC-Id:&nbsp {yourAppId}"</span></div>
+		    <div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">
+			   <span style="font-weight:100;font-size:14px;font-family: 'microsoft sans serif';color: #000000;height:17px;top:0px;
+			   display:block;float:left;">&nbsp -H </span> 
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">&nbsp "X-LC-Key:&nbsp {yourAppKey}"</span></div>
+		    <div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">
+			   <span style="font-weight:100;font-size:14px;font-family: 'microsoft sans serif';color: #000000;height:17px;top:0px;
+			   display:block;float:left;">&nbsp -H</span>
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">"Content-Type:&nbsp application/json"</span></div>
+		    <div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">
+			   <span style="font-weight:100;font-size:14px;font-family: 'microsoft sans serif';color: #000000;height:17px;top:0px;
+			   display:block;float:left;">&nbsp -d</span>
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">
+				   &nbsp '{"content":&nbsp "每个 Java 程序员必备的 8 个开发工具","pubUser":&nbsp "LeanCloud官方客服"
+				</span></div>
+			<div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">   
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">&nbsp &nbsp &nbsp ,"pubTimestamp":&nbsp 1435541999}'</span></div>
+			<div style="float:left;background-color: #FFFFFF;width:740px;height:17px;">
+			   <span style="font-weight:100;font-size:14px;font-family: 'microsoft sans serif';color: #000000;height:17px;top:0px;
+			   display:block;float:left;">https:</span>
+			   <span style="color:rgb(76, 136, 107);font-weight:100;font-size:14px;font-family: 'microsoft sans serif';
+			   height:17px;top:0px;display:block;float:left;">//zep7vtap.api.lncld.net/1.1/classes/Post</span></div>
+		</div><!--title9d2-->
+	</div><!--box8-->	
+		
+		
+	<div class="box9" style="width:100%;height:800px;float:left;background-color: #f6f8fd;">
+		    
+			<div class="backgronud">
+		      <a href="#">
+		      <img src="图片7.jpg" alt="图片">
+		      </a>	
+			</div><!--backgronud-->
+			
+			<div class="title10" style="width:600px;margin-left:100px;float:left;height:100px;margin-top:250px;margin-bottom:270px;">
+				<h1 class="h1">多节点覆盖，跨区域访问加速</h1>
+				<p class="h2">一套服务部署到多个节点，给不同地域用户带来同样迅捷的产品使用体验</p>
+			</div><!--title10-->
+			
+			<div class="bleft" style="float:left;margin-left:100px;width:600px;height:50px;">
+				<div class="backgroud1" style="float:left;">
+				  <a href="#">
+				  <img src="图片8.jpg" alt="图片">
+				  </a>	
+				</div><!--backgroud1-->
+			    <div class="text8" style="float:left;">
+				<p class="h3">支持企业客户按需部署需求，保证苹果终端设备推送的高到达<br>率。</p>
+			    </div><!--text8-->	
+				</div><!--bleft-->
+				
+			<div class="bright" style="float:right;margin-left:50px;width:600px;height:60px;">	
+				<div class="backgroud2" style="float:left;">
+				  <a href="#">
+				  <img src="图片9.jpg" alt="图片">
+				  </a>	
+				</div><!--backgroud2-->
+				<div class="text9" style="float:left;">
+				<p class="h4">为企业客户提供跨区域备份、异地多活等更高层次的数据安全<br>和服务可用性保障。</p>
+				</div><!--text9-->	
+			</div><!--bright-->
+	</div><!--box9-->	
+	    
+		
+		<div class="box10" style="width:1350px;height:650px;float:left;background-color: #FFFFFF;">
+			<div class="backgroud3" style="float:left;margin-left:100px;margin-top:100px;width:500px;height:320px;">
+			  <a href="#">
+			  <img src="图片10.jpg" alt="图片">
+			  </a>	
+			</div><!--backgroud3-->          
+			
+			<div class="title11" style="width:700px;margin-left:50px;float:left;height:100px;margin-top:250px;margin-bottom:270px;">
+				<h1 class="h5" style="color:#455d82;font-size:36px;font-weight:400;line-height:1.5;display:block;float:left;margin-right:240px;">灵活的价格与部署方案</h1>
+				<p class="h6" style="display:block;float:left;margin-top:10px;color:#373d41;font-size:18px;}">针对不同阶段和用途的产品，我们提供了灵活的计费方案，帮你在成本和服务之<br>间达到平衡。</p>
+			</div><!--title11-->
+		</div><!--box10-->
+		
+		
+	<div class="box14" style="float:left;width:100%;height:420px;"><!--总-->
+		
+		<div class="box11" style="float:left;width:430px;height:350px;border-right:1px solid #808a8e30;margin-left:20px;">
+			<div style="float:left;width:360px;height:100px;margin-left:90px;margin-top:50px;">
+				 <div style="width:100px;height:100px;float:left;">
+				  <a href="#">
+				  <img src="图片11.jpg" alt="图片">
+				  </a>	
+				 </div><!--图片-->
+				 
+				 <div style="height:100px;width:200px;float:left;">
+			     <h1 style="display:block;float:left;color:#455d82;font-size:30px;font-weight:400;line-height:1.5;margin-left:20px;margin-top:20px;">开发版</h1>
+			     </div>
+			</div>
+			<p style="display:block;float:left;margin-top:10px;color:#373d41;font-size:18px;margin-left:40px;">针对开发阶段和个人项目的解决方案，功<br>能丰富，可免费使用。</p>
+		</div><!--box11-->	
+		
+		<div class="box12" style="float:left;width:430px;height:350px;border-right:1px solid #808a8e30;margin-left:20px;">
+			<div style="float:left;width:360px;height:100px;margin-left:90px;margin-top:50px;">
+				 <div style="width:100px;height:100px;float:left;">
+				  <a href="#">
+				  <img src="图片12.jpg" alt="图片">
+				  </a>	
+				 </div><!--图片-->
+				 
+				 <div style="height:100px;width:200px;float:left;">
+			     <h1 style="display:block;float:left;color:#455d82;font-size:30px;font-weight:400;line-height:1.5;margin-left:20px;margin-top:20px;">商用版</h1>
+			     </div>
+			</div>
+			<p style="display:block;float:left;margin-top:10px;color:#373d41;font-size:18px;margin-left:40px;">高性能，高可用的商业应用解决方案，可<br>以满足线上产品的要求</p>
+		</div><!--box12-->	
+		
+		<div class="box13" style="float:left;width:420px;height:350px;border-right:1px solid #808a8e30;margin-left:20px;">
+			<div style="float:left;width:360px;height:100px;margin-left:90px;margin-top:50px;">
+				 <div style="width:100px;height:100px;float:left;">
+				  <a href="#">
+				  <img src="图片13.jpg" alt="图片">
+				  </a>	
+				 </div><!--图片-->
+				 
+				 <div style="height:100px;width:200px;float:left;">
+			     <h1 style="display:block;float:left;color:#455d82;font-size:30px;font-weight:400;line-height:1.5;margin-left:20px;margin-top:20px;">企业版</h1>
+			     </div>
+			</div>
+			<p style="display:block;float:left;margin-top:10px;color:#373d41;font-size:18px;margin-left:40px;">支持独立、私有、混合云等多种部署方<br>案,提供定制化开发服务，满足多样化的<br>产品需求。</p>
+		</div><!--box13-->
+	</div><!--总-->
+	
+	<div class="box15" style="float:left;margin-left:530px;width:200px;height:50px;">		
+		<button class="box17">查看更多&nbsp;></button>
+	</div><!--box15-->
+		
+	
+	<div class="box16" style="float:left;background-color:#f6f8fd;width:100%;height:700px;" >
+		<div style="width:600px;height:50px;float:left;margin-left:350px;margin-top:50px;">
+		<h1 style="color:#455d82;font-size:40px;font-weight:400;line-height:1.5;display:block;float:left;margin-left:30px;
+		           ">我们已服务超过22万开发团队</h1>
+		</div>
+		
+		<div style="width:100px;height:100px;float:left;margin-top:70px;margin-left:600px;">
+		 <a href="#">
+		 <img src="图片14.jpg" alt="图片">
+		 </a>	
+		</div><!--图片-->
+		
+		<span style="display:block;float:left;color:#585858;margin-top:10px;font-size:24px;font-weight:300;
+		             margin-left:590px;">李申申/CTO</span>
+		<p style="display:block;float:left;font-weight: 300;font-size: 28px;margin-top: 10px;color: #585858;margin-left:150px;">
+			『LeanCloud 接口使用非常方便，推送速度也很快，在国内算是很棒的推送服务提供<br>方。
+		    除此之外，每次跟 LeanCloud 反馈问题，沟通都很高效、畅通。』</p>
+	
+		
+		<div style="width:600px;height:100px;float:left;margin-left:200px;margin-top:50px;">
+		 <a href="#">
+		 <img src="图片15.jpg" alt="图片">
+		 </a>	
+		</div><!--图片15-->
+		
+		<button class="box18">查看更多&nbsp;></button>
+	</div><!--box16-->
+			
+			
+	<div class="box19" style="float:left;width:100%;height:500px;background-color:#25394c;">
+		
+		<div class="box191" style="width:400px;height:400px;float:left;">
+			<span style="display:block;float:left;font-weight:700;font-size:38px;width:200px;height:50px;
+			margin-top:100px;margin-left:50px;color: #FFFFFF;cursor: text;">leancloud</span>
+			
+			<button class="box20">立即申请试用</button>
+				
+			<p class="box21"><span style="display:block;float:left;">邮件订阅</span><span style="display:block;float:left;cursor:pointer;">
+					  LeanCloud&nbsp;Blog</span>&nbsp;<span style="display:block;float:left;">的最新资讯</span></p>	
+			<p class="box23">请输入邮箱</p>
+		</div><!--box191-->
+		
+		<div class="box192" style="width:200px;height:400px;float:left;margin-left:0;margin-left:100px;">
+			<span class="s1">产品</span>
+			<p class="s2">数据存储</p>
+               <p class="s3">云引擎 + 云缓存</p>
+            <p class="s2"> 即时通讯</p>
+            <p class="s2">消息推送</p>
+            <p class="s2">短信</p>
+            <p class="s2">游戏解决方案</p>
+            <p class="s2">微信小程序</p>
+            <p class="s2">服务健康状态</p>
+		</div><!--box192-->
+		
+		<div class="box193" style="width:200px;height:400px;float:left;margin-left:0;">
+		     <span class="s4">资源</span>
+			 <p class="s5">文档</p>
+             <p class="s5">讲座视频</p>
+             <p class="s5">推荐计划</p>
+             <p class="s5">论坛</p>
+             <p class="s5">工单</p>
+		</div><!--box193-->
+		
+		
+		<div class="box194" style="width:200px;height:400px;float:left;margin-left:0;">
+		     <span class="s6">公司</span>
+			 <p class="s7">关于我们</p>                  
+		     <p class="s7"> 开放资源</p>       
+		     <p class="s7"> 工作机会</p>
+			 <p class="s7"> 媒体报道</p>
+			 <p class="s7"> 使用协议</p>
+			 <p class="s8"> 博客</p>
+			 <p class="s8"> Logo</p>
+		                                                            
+		</div><!--box194-->
+		
+		<div class="box195" style="width:200px;height:400px;float:left;margin-left:0;">
+		     <span class="s9">社交网络</span>
+			 <p class="s10">微信</p>                  
+		     <p class="s10">  微博</p>       
+		     <p class="s10"> 知乎专栏</p>
+			 <p class="s10">GitHub</p>
+			 <p class="s10"> Twitter</p>
+			 <p class="s10">Facebook</p>
+			
+		                                                            
+		</div><!--box195-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div><!--box19-->		
+			
+	<div class="box22" style="width:100%;height:80px;background-color:#183349;float:left;">
+		<p class="box24">京公网安备 11010502036747 号 · 京 ICP 备 12025059-8</p>
+	</div>		
+			
+			
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
